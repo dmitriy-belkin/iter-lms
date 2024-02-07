@@ -1,3 +1,22 @@
+# ITER-LMS
+
+## Install packages:
+```
+npm i
+```
+
+## Setup Prisma
+Add MySQL Database
+```
+npx prisma generage
+npx prisma db push
+```
+
+## Start the app
+```
+npm run dev
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
