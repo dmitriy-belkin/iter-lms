@@ -6,10 +6,10 @@ async function main() {
   try {
     await database.category.createMany({
       data: [
-        { name: "Korean" },
-        { name: "English" },
-        { name: "Russian" },
-        { name: "IT" },
+        { name: "Начальный" },
+        { name: "Средний" },
+        { name: "Продвинутый" },
+        { name: "Тест" },
       ]
     });
 
