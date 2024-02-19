@@ -6,7 +6,7 @@ npm i
 ```
 
 ## Setup Prisma
-Add MySQL Database
+Add PostgreSQL Database
 ```
 npx prisma generate
 npx prisma db push
